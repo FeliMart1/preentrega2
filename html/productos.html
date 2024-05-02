@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/0a272d7521.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Productos</title>
+  <link rel="stylesheet" href="../estilos.css">
+  <link rel="icon" href="../assets/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar inicio -->
+    <nav class="navbar bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-auto" href="../index.html"><img src="../assets/logo lapla.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/galeria.html">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/nuestrasColaboraciones.html">Nuestras colaboraciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/nosotros.html">Nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <!-- Navbar Fin -->
+
+  <h1 class="text-center bg-dark text-white p-5 m-0">Productos</h1>
+  
+
+  <!-- Cards Inicio -->
+  <div class="container-fluid bg-dark p-4">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card position-relative bg-dark">
+          <img src="../assets/jeanFacu1.jpg" class="card-img-top w-100 rounded" alt="Imagen 1">
+          <div class="overlay">
+            <a href="#Jeans" class="btn btn-secondary btn-lg position-absolute top-50 start-50 translate-middle">Jeans</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card position-relative bg-dark">
+          <img src="../assets/bermudaBruno1.jpg" class="card-img-top w-100 rounded" alt="Imagen 2">
+          <div class="overlay">
+            <a href="#Bermudas" class="btn btn-secondary btn-lg position-absolute top-50 start-50 translate-middle">Bermudas</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Cards Fin -->
+
+<!-- Jumbotron Inicio -->
+<div class="container p-5">
+  <div class="jumbotron">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="d-flex justify-content-center">
+                      <i class="fas fa-shield-alt fa-3x me-3"></i> <!-- Icono de seguridad -->
+                      <p class="lead my-auto">Trabajamos todo de manera artesanal, con excelente calidad.</p>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="d-flex justify-content-center">
+                      <i class="fas fa-truck fa-3x me-3"></i> <!-- Icono de camión -->
+                      <p class="lead my-auto">Hacemos envíos a todo Montevideo.</p>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="d-flex justify-content-center">
+                      <i class="fa-solid fa-recycle fa-3x me-3"></i>
+                      <p class="lead my-auto">Recibimos tu jean para transformarlo en una pieza nueva.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Jumbotron Fin -->
+
+
+
+<h2 id="Jeans" class="text-center bg-dark text-white p-5 m-0">Jeans</h2>
+
+  <!-- Carrusel Jeans Inicio -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active bg-dark">
+      <img src="../assets/jeanFacu2.jpg" class="d-block img-fluid" width="500px" alt="Imagen 1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="sombra">Jean "NOMBRE DEL JEAN 1"</h5>
+        <h5 class="sombra">$Precio</h5>
+      </div>
+    </div>
+    <div class="carousel-item bg-dark">
+      <img src="../assets/jeanMaxi2.jpg" class="d-block img-fluid" width="500px" alt="Imagen 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="sombra">Jean "NOMBRE DEL JEAN 2"</h5>
+        <h5 class="sombra">$Precio</h5>
+      </div>
+    </div>
+    <div class="carousel-item bg-dark">
+      <img src="../assets/jeanMujer2.jpg" class="d-block img-fluid" width="500px" alt="Imagen 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="sombra">Jean "NOMBRE DEL JEAN 3"</h5>
+        <h5 class="sombra">$Precio</h5>
+      </div>
+    </div>
+    <div class="carousel-item bg-dark">
+      <img src="../assets/jeanFran2.jpg" class="d-block img-fluid" width="500px" alt="Imagen 4">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="sombra">Jean "NOMBRE DEL JEAN 4"</h5>
+        <h5 class="sombra">$Precio</h5>
+      </div>
+    </div>
+  </div>
+  <!-- Controles jeans -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
+  <!-- Carrusel Jeans Fin -->
+
+  <h2 id="Bermudas" class="text-center bg-dark text-white p-5 m-0">Bermudas</h2>
+
+<!-- Carrusel de Bermudas Inicio -->
+<div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active bg-dark">
+      <img src="../assets/bermudaBruno1.jpg" class="d-block" width="500px" alt="Bermuda 1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="sombra">Bermuda "NOMBRE DE LA BERMUDA 1"</h5>
+        <h5 class="sombra">$Precio</h5>
+      </div>
+    </div>
+    <div class="carousel-item bg-dark">
+      <img src="../assets/bermudaManu2.jpg" class="d-block" width="500px" alt="Bermuda 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="sombra">Bermuda "NOMBRE DE LA BERMUDA 2"</h5>
+        <h5 class="sombra">$Precio</h5>
+      </div>
+    </div>
+    <div class="carousel-item bg-dark">
+      <img src="../assets/bermudaBruno2.jpg" class="d-block" width="500px" alt="Bermuda 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="sombra">Bermuda "NOMBRE DE LA BERMUDA 3"</h5>
+        <h5 class="sombra">$Precio</h5>
+      </div>
+    </div>
+    <div class="carousel-item bg-dark">
+      <img src="../assets/bermudaManu1.jpg" class="d-block" width="500px" alt="Bermuda 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="sombra">Bermuda "NOMBRE DE LA BERMUDA 4"</h5>
+        <h5 class="sombra">$Precio</h5>
+      </div>
+    </div>
+    <!-- Agrega más elementos carousel-item según sea necesario -->
+  </div>
+  <!-- Controles bermudas -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+<!-- Carrusel de Bermudas Fin -->
+
+
+
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="text-center">
+          <p>Escribe aquí tu texto centrado</p>
+          <img class="metodosDePago" src="../assets/metodos de pago.png" alt="Metodos De Pago">
+          <p>&copy; 2024 Laplazotte. Todos los derechos reservados.</p>
+        </div>
+<div class="col-md-6 text-center">
+  <!-- Iconos de redes sociales -->
+  <a target="_blank" href="#" class="text-white me-3"><i class="fab fa-whatsapp fa-2x"></i></a>
+  <a target="_blank" href="https://www.instagram.com/manulaplazotte/" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
+  <a target="_blank" href="#" class="text-white me-3"><i class="far fa-envelope fa-2x"></i></a>
+  <a target="_blank" href="#" class="text-white"><i class="fab fa-facebook fa-2x"></i></a>
+</div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
