@@ -33,12 +33,13 @@
   background-color: #f0f0f0;
   text-align: center;
   padding: 20px;
+  overflow: hidden; /* Añadido para asegurar que las imágenes no se estiren */
 }
 
 .gallery-item img {
   max-width: 100%;
-  height: auto; /* Cambia de 100% a auto */
-  object-fit: cover; 
+  height: auto; /* Asegura que la altura sea automática */
+  object-fit: cover;
 }
 
 .clase1 {
@@ -121,6 +122,11 @@ h1 {
 
   .gallery-item {
     padding: 10px; /* Reduce el padding en dispositivos móviles */
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto; /* Asegura que la altura sea automática */
   }
 
   .footer {
