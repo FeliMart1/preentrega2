@@ -112,3 +112,24 @@ h1 {
   background-color: #212529; // Establece el color de fondo deseado
   animation: fadeIn 3s ease-in-out forwards; // Aplica la animación de desvanecimiento
 }
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item img {
+    height: 300px; /* Ajusta esta altura según sea necesario */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px 0; /* Reduce el padding superior e inferior */
+    font-size: 0.8rem; /* Ajusta el tamaño de la fuente */
+  }
+
+  .footer .col-md-6 {
+    padding: 10px 0; /* Ajusta el padding de los iconos de redes sociales */
+  }
+
+  .footer img.metodosDePago {
+    width: 70%; /* Ajusta el tamaño de la imagen de métodos de pago */
+  }
+}
