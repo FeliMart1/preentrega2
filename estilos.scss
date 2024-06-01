@@ -55,26 +55,23 @@
 }
 
 .text-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  padding: 20px;
-  box-sizing: border-box;
-}
-.text-block {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  border-radius: 10px;
-  margin: 10px 0;
+  position: relative;
+  overflow: auto; /* Agregado para evitar desbordamiento */
 }
 
+.text-block {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.text-block p {
+  color: white;
+  text-align: justify;
+  margin-bottom: 20px;
+}
 .embed-responsive {
   position: relative;
   display: block;
