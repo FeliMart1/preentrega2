@@ -85,6 +85,7 @@
 .container-fluid {
   padding: 0;
 }
+
 .modal-target {
   position: fixed;
   top: 0;
@@ -122,8 +123,34 @@
   font-weight: bold;
 }
 
+.gallery-item img {
+  max-width: 100%;
+  height: auto; /* Asegura que la altura sea automática */
+  object-fit: cover;
+}
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Espacio entre los elementos de la galería */
+}
 
+.gallery-item {
+  flex: 1 1 calc(25% - 10px); /* Ancho del 25% menos el espacio del gap */
+  box-sizing: border-box;
+}
 
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .gallery-item {
+    flex: 1 1 calc(50% - 10px); /* Ancho del 50% menos el espacio del gap */
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-item {
+    flex: 1 1 100%; /* Ancho completo para dispositivos pequeños */
+  }
+}
 
 
