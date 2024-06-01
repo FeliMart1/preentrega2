@@ -152,10 +152,4 @@
   object-position: center; /* Centra la imagen dentro del contenedor */
 }
 
-/* Estilos responsivos */
-@media (max-width: 768px) {
-  .gallery-item {
-    flex: 1 1 calc(50% - 10px); /* Ancho del 50% menos el espacio del gap */
-  }
-}
 
