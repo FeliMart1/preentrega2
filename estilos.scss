@@ -36,6 +36,13 @@
   background-color: rgb(10, 10, 10);
 }
 
+.overlay {
+  background-color: transparent; /* Cambiar el color de fondo a transparente */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .text-overlay {
   position: relative;
