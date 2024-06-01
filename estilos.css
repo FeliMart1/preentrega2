@@ -147,4 +147,56 @@
 h1 {
   background-color: #212529;
   animation: fadeIn 3s ease-in-out forwards;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; 
+  overflow: hidden;
+}
+
+.gallery-item img {
+  object-fit: cover;
+}
+
+.modal-target {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0s 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-target img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.modal-target:target {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s, visibility 0s;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}

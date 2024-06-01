@@ -11,51 +11,6 @@
     <script src="https://kit.fontawesome.com/0a272d7521.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="icon" href="../assets/favicon.png" type="image/x-icon">
-    <style>
-        /* Agrega estilos para ocultar el modal por defecto */
-        .modal-target {
-          position: fixed;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background: rgba(0, 0, 0, 0.8);
-          visibility: hidden;
-          opacity: 0;
-          transition: opacity 0.3s, visibility 0s 0.3s;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-
-        .modal-target img {
-          max-width: 90%;
-          max-height: 90%;
-        }
-
-        /* Agrega estilos para mostrar el modal cuando se hace clic en la imagen */
-        .modal-target:target {
-          visibility: visible;
-          opacity: 1;
-          transition: opacity 0.3s, visibility 0s;
-        }
-
-        /* Estilos para el botón de cerrar el modal */
-        .close-modal {
-          position: absolute;
-          top: 10px;
-          right: 10px;
-          color: white;
-          text-decoration: none;
-          font-weight: bold;
-        }
-
-        .gallery-item img {
-          max-width: 100%;
-          height: auto; /* Asegura que la altura sea automática */
-          object-fit: cover;
-        }
-    </style>
 </head>
 <body class="fondo bg-dark">
     <nav class="clase1 navbar navbar-dark">
@@ -139,11 +94,11 @@
           <img src="../assets/jeanPulu1.jpg" alt="Jean 4">
         </a>
       </div>
-      <!-- Agrega las imágenes restantes aquí -->
+   
     </div>
   </div>
 
-  <!-- Modal para mostrar la imagen en detalle -->
+
   <div id="img1" class="modal-target">
     <img src="../assets/manuTrepado3.jpeg" alt="Jean 1">
     <a href="#" class="close-modal">Cerrar</a>
@@ -184,7 +139,7 @@
     <img src="../assets/jeanPulu1.jpg" alt="Jean 10">
     <a href="#" class="close-modal">Cerrar</a>
   </div>
-  <!-- Agrega los modales restantes aquí -->
+
 
     <footer class="footer text-white py-4">
         <div class="container">
